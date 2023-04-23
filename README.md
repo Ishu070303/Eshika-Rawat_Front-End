@@ -39,7 +39,7 @@ The List component does the following :-
 
 ## Q2. What problems/warnings are there with code? ##
 
-*In WrappedSingleList Item, the onClickHandler props is called wrongly, it should be called as a callback to be called when the list item is clicked.
+* In WrappedSingleList Item, the onClickHandler props is called wrongly, it should be called as a callback to be called when the list item is clicked.
 
 * In WrappedSingleListItem proptypes index and isSelected is not assigned as required, all though it's not a problem but as these two parameter are crucial for proper functioning of code so it's good if we add a required flag on them so that programmer don’t miss to pass them.
 
