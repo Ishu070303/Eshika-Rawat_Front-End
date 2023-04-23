@@ -1,41 +1,31 @@
 #  STEELEYE LIMITED FRONTEND ENGINEER ASSIGNMENT
 
+### PDF File For better Reference 
+[steel-eye.pdf](https://github.com/Ishu070303/Eshika-Rawat_Front-End/files/11303057/steel-eye.pdf)
+
+### Deploy Link 
+[https://steeleye-project.netlify.app](https://steeleye-project.netlify.app)
+
 Dear Sir /Mam here below is the complete solutions of the frontend assignment:
 
 # Q1. Explain what the simple List component does?
 
 The List component does the following :- 
-- It receives an array of objects named 'items' as props 
-  and each object in the item array is required to have a 
-  parameter name “text” of type string .
+- It receives an array of objects named 'items' as props and each object in the item array is required to have a parameter name “text” of type string .
 
-- It iterates through the 'items' array of objects using 
-  map and renders a new component named 'SingleListItem' 
-  for each object in the array and passes  the value of 
+- It iterates through the 'items' array of objects using  map and renders a new component named 'SingleListItem' for each object in the array and passes  the value of 
   onClickHandler, text, index, isSelected as props.
 
-- Value of the index is unique for each SingleListItem 
-  component so that it can be identified when clicked by 
-  the user, the value of selectedIndex is set to null in 
-  the beginning and changes to the respective index value 
-  of list item on clicking with the help of 
-  onClickHandler.
+- Value of the index is unique for each SingleListItem component so that it can be identified when clicked by the user, the value of selectedIndex is set to null in 
+  the beginning and changes to the respective index value of list item on clicking with the help of onClickHandler.
 
-- The isSelected props is responsible for changing the 
-  background color of the list items, to highlight the 
-  selected list item by the user, isSelected true means 
-  green otherwise red, it means all the list item will 
-  have default red background before user interaction.
+- The isSelected props is responsible for changing the background color of the list items, to highlight the selected list item by the user, isSelected true means 
+  green otherwise red, it means all the list item will have default red background before user interaction.
 
-- The 'WrappedSingleListItem' is a memoized functional 
-  component that is meant to render only when the value of 
-  the isSelected props changes, this means that if the 
-  user double clicks the list item the component will not 
-  re-render.
+- The 'WrappedSingleListItem' is a memoized functional component that is meant to render only when the value of the isSelected props changes, this means that if the 
+  user double clicks the list item the component will not re-render.
 
-- The 'WrappedListComponent' generates a list of items by 
-  using the 'WrappedSingleListItem'
-  Component which is also a memoized functional component.
+- The 'WrappedListComponent' generates a list of items by using the 'WrappedSingleListItem'Component which is also a memoized functional component.
 
 ## Q2. What problems/warnings are there with code? ##
 
@@ -57,7 +47,6 @@ The List component does the following :-
 
 
 ## Q3. Please fix, optimize, and/or modify the component as much as you think is necessary ? ##
-
 
 ### CODE ###
 
@@ -163,3 +152,4 @@ export default List;
 **Course** : Btech (CSE) <br/>
 **Email id** : eshikarawat02@gmail.com <br/>
 **Mobile No.** : 9151420781 <br/>
+
