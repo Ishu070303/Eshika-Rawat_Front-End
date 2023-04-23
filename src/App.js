@@ -2,15 +2,15 @@ import WrappedListComponent from './WrappedListComponent';
 
 const items = [
   {
-    "name" : "eshika",
+    "text" : "eshika",
   },
 
   {
-    "section" : "RA",
+    "text" : "rawat",
   },
 
   {
-    "company" : "Steeleye"
+    "text" : "Steeleye"
   }
 
 ]
