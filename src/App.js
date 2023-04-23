@@ -1,7 +1,6 @@
-import React from 'react'
 import WrappedListComponent from './WrappedListComponent';
 
-const itmes = [
+const items = [
   {
     "text" : "eshika",
   },
@@ -19,7 +18,7 @@ const itmes = [
 const App = () => {
   return (
     <div>
-      <WrappedListComponent itmes={itmes} />
+      <WrappedListComponent items={items} />
     </div>
   )
 }
