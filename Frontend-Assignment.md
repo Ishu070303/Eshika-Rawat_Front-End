@@ -4,7 +4,7 @@
 [steel-eye.pdf](https://github.com/Ishu070303/Eshika-Rawat_Front-End/files/11303057/steel-eye.pdf)
 
 ### Deploy Link 
-[https://steeleye-project.netlify.app/](https://steeleye-project.netlify.app/)
+[https://steeleye-project.netlify.app](https://steeleye-project.netlify.app)
 
 Dear Sir /Mam here below is the complete solutions of the frontend assignment:
 
