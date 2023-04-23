@@ -1,5 +1,11 @@
 #  STEELEYE LIMITED FRONTEND ENGINEER ASSIGNMENT
 
+### PDF File For better Reference 
+[steel-eye.pdf](https://github.com/Ishu070303/Eshika-Rawat_Front-End/files/11303057/steel-eye.pdf)
+
+### Deploy Link 
+[https://steeleye-project.netlify.app/](https://steeleye-project.netlify.app/)
+
 Dear Sir /Mam here below is the complete solutions of the frontend assignment:
 
 # Q1. Explain what the simple List component does?
@@ -41,7 +47,6 @@ The List component does the following :-
 
 
 ## Q3. Please fix, optimize, and/or modify the component as much as you think is necessary ? ##
-
 
 ### CODE ###
 
@@ -148,8 +153,3 @@ export default List;
 **Email id** : eshikarawat02@gmail.com <br/>
 **Mobile No.** : 9151420781 <br/>
 
-### PDF File For better Reference 
-[steel-eye.pdf](https://github.com/Ishu070303/Eshika-Rawat_Front-End/files/11303057/steel-eye.pdf)
-
-### Deploy Link 
-[https://steeleye-project.netlify.app/](https://steeleye-project.netlify.app/)
